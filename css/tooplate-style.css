@@ -120,13 +120,13 @@ b, strong {
 }
 
 .animated-item {
-  font-size: 38px;
+  font-size: 28px;
   line-height: inherit;
   display: block;
   opacity: 0;
   overflow: hidden;
   position: absolute;
-  top: 0;
+  top: 0.4em ;
   right: 0;
   left: 0;
   animation: BottomTotop 6s linear infinite 0s;
