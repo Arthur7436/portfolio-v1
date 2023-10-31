@@ -3,7 +3,7 @@ error_reporting(-1);
 ini_set('display_errors', 'On');
 set_error_handler("var_dump");
 
-if ($_SERVER["REQUEST_METHOD"] === "POST") {
+if ($_POST["submit"] === "POST") {
     $to = "arthur.thai479@gmail.com";
     $subject = "Here is the sample subject line";
     $message = $_SERVER["message"];
