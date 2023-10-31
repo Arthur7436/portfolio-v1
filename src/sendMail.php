@@ -1,19 +1,9 @@
 <?php
-
-
-if ($_POST["message"]) {
-
-
+if ($_POST["Message"]) {
     mail(
         "arthur.thai479@gmail.com",
-        "Here is the subject line",
-
-
-        $_POST["insert your message here"] . "From: an@email.address"
+        "Here is the sample subject line",
+        $_POST["Insert Your Message"] . "From: jane@janedoe.com"
     );
-
-
 }
-
-
 ?>
