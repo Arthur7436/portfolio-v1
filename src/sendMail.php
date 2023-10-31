@@ -6,7 +6,7 @@ set_error_handler("var_dump");
 if ($_POST["submit"] === "POST") {
     $to = "arthur.thai479@gmail.com";
     $subject = "Here is the sample subject line";
-    $message = $_SERVER["message"];
+    $message = $_POST["message"];
     $headers = "From: jane@janedoe.com";
 
     mail($to, $subject, $message, $headers);
