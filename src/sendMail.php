@@ -1,5 +1,5 @@
 <?php
-if ($_POST["Message"]) {
+if ($_POST["POST"]) {
     mail(
         "arthur.thai479@gmail.com",
         "Here is the sample subject line",
