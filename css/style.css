@@ -1,0 +1,20 @@
+.form-textarea {
+    height: -1000px;
+    /* Reduced from 163px */
+}
+
+.form-line {
+    padding-top: -400px;
+    /* Adjust as necessary */
+    padding-bottom: 4px;
+    /* Adjust as necessary */
+}
+
+div.col-lg-6.col-2 {
+    margin-top: 0px;
+}
+
+.form-all {
+    margin: 0px auto !important;
+}
+/* You can add more custom styles here to adjust other elements */
